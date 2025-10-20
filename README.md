@@ -68,3 +68,67 @@ Random Forest	0.7406	0.2581	0.0200	High accuracy but biased toward majority clas
 Both models show class imbalance, performing better at predicting non-churned users.
 
 ## 🔢 Confusion Matrices
+
+Decision Tree:
+
+[[854 346]
+ [267 133]]
+
+
+Random Forest:
+
+[[1177   23]
+ [ 392    8]]
+
+
+Visualization:
+
+sns.heatmap(confusion_matrix, annot=True, cmap='Blues', fmt='d')
+plt.title('Confusion Matrix')
+plt.xlabel('Predicted')
+plt.ylabel('Actual')
+plt.show()
+
+## 🧰 Tools and Libraries
+
+Python 3.x
+
+pandas, numpy
+
+matplotlib, seaborn
+
+scikit-learn
+
+## 🚀 How to Run
+
+Clone the repository:
+
+git clone https://github.com/<your-username>/spotify-churn-prediction.git
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Open the notebook:
+
+jupyter notebook spotfy.ipynb
+
+
+Or open directly in a new window via Google Colab
+ (enable pop-ups if blocked).
+
+## 💡 Future Improvements
+
+Address class imbalance using SMOTE or class weights.
+
+Experiment with XGBoost or Logistic Regression.
+
+Perform hyperparameter tuning to improve recall and precision.
+
+##📬 Author
+
+John Mwangi
+Data Analyst & ML Enthusiast
+📧 Connect on linkedin(https://www.linkedin.com/in/john-m-mwangi/)
