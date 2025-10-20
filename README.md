@@ -1,6 +1,6 @@
 # Spotify
 
-#🎧 Spotify Churn Prediction Project
+# 🎧 Spotify Churn Prediction Project
 ## 📄 Overview
 
 This project explores customer churn prediction for a simulated Spotify dataset using machine learning models.
@@ -127,7 +127,7 @@ Experiment with XGBoost or Logistic Regression.
 
 Perform hyperparameter tuning to improve recall and precision.
 
-##📬 Author
+## 📬 Author
 
 John Mwangi
 Data Analyst & ML Enthusiast
